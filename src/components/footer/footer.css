@@ -1,0 +1,12 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 8px;
+    margin: 16px auto;
+    width: clamp(310px, 90%, 1800px);
+    background: var(--md-sys-color-surface-container);
+    border-radius: 12px;
+    padding: 8px;
+}
+

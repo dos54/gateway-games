@@ -1,0 +1,26 @@
+.hero {
+    margin: 0 auto;
+}
+
+.call-to-action {
+  background: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary);
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.call-to-action h1 {
+    border-bottom: 1px solid gray;
+    margin-bottom: 4px;
+}
+
+.google-maps-map {
+  margin: 16px auto;
+}
+
+@media (min-width: 1200) {
+  .google-maps-map {
+    width: 600px;
+    height: 450px;
+  }
+}

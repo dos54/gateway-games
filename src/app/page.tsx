@@ -1,101 +1,49 @@
 import Image from "next/image";
+import Socials from "@/components/socials/Socials";
+import './home.css'
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+    <>
+    <Image 
+      src='images/logo/logo-white.svg'
+      alt="Gateway Games Ketchikan Logo"
+      width={800}
+      height={800}
+      className="hero"
+    />
+    <div className="call-to-action">
+      <h1 
+        className="centered call-to-action"
+      >
+        Upcoming Events
+      </h1>
+      <h2>No upcoming events at this time. Check back later!</h2>
+      <Socials />
     </div>
+    <section>
+      <h2 className="centered">About Us</h2>
+      <p>
+        Welcome to Gateway Games! We are the First City's first game store. Gateway Games was first opened in 1997
+        on the south end of Creek Street in Ketchikan, Alaska. In 1999 we moved to the basement of the Marine View building.
+        In September of 2021 we moved out of the basement (about time for a 24 year old!) and into the Mason Building
+        in downtown historic Ketchikan, near the tunnel, across from the eagle statue. In 2024 we once again moved
+        a few storefronts down the street, right next to the city hall.
+      </p>
+      <p>
+        In addition to being a store that's locally owned and staffed, we are open year round for locals to
+        participate in the local nerd/geek/gamer community. We also sell items made by locals such as
+        dice bags, dice trays, dice, custom shirts, and more! These are perfect as mementos of your trips,
+        and make great gifts for any nerdlings you may have at home.
+      </p>
+    </section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d392.51092292302053!2d-131.6485698405744!3d55.34247259528447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x540c25a51aa326bf%3A0x594f67a97a043709!2sGateway%20Games!5e1!3m2!1ses-419!2sus!4v1737281840730!5m2!1ses-419!2sus" 
+      width="300" 
+      height="250" 
+      loading="lazy" 
+      referrerPolicy="no-referrer-when-downgrade" 
+      className="google-maps-map">
+    </iframe>
+    </>
   );
 }

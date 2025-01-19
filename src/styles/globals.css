@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  --header: linear-gradient(45deg, black, green , green , black );
+
+  --card-background: green
+}
+
+
+html {
+  min-width: 320px;
+}
+
+body {
+  color: var(--md-sys-color-on-surface);
+  background: var(--md-sys-color-surface);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  margin: 16px auto;
+  width: clamp(310px, 90%, 1800px);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-top: 8px;
+}
+
+.centered {
+  text-align: center;
+}
+

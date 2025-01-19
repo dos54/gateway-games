@@ -1,0 +1,11 @@
+
+.social-media-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-icon {
+    display: block;
+    width: 64px;
+    height: 64px;
+}
