@@ -24,14 +24,14 @@ export default function Home() {
     <section>
       <h2 className="centered">About Us</h2>
       <p>
-        Welcome to Gateway Games! We are the First City's first game store. Gateway Games was first opened in 1997
+        Welcome to Gateway Games! We are the First City&apos;s first game store. Gateway Games was first opened in 1997
         on the south end of Creek Street in Ketchikan, Alaska. In 1999 we moved to the basement of the Marine View building.
         In September of 2021 we moved out of the basement (about time for a 24 year old!) and into the Mason Building
         in downtown historic Ketchikan, near the tunnel, across from the eagle statue. In 2024 we once again moved
         a few storefronts down the street, right next to the city hall.
       </p>
       <p>
-        In addition to being a store that's locally owned and staffed, we are open year round for locals to
+        In addition to being a store that&apos;s locally owned and staffed, we are open year round for locals to
         participate in the local nerd/geek/gamer community. We also sell items made by locals such as
         dice bags, dice trays, dice, custom shirts, and more! These are perfect as mementos of your trips,
         and make great gifts for any nerdlings you may have at home.
