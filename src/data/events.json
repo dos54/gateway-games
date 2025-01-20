@@ -1,0 +1,42 @@
+[
+    {
+        "event_id": 1,
+        "author_name": "Steven",
+        "title": "Friday Night Pizza",
+        "details": "We will be having pizza this Friday!",
+        "event_date": "2025-01-24T19:00:00-09:00",
+        "publish_date": "2025-01-15T10:00:00-09:00"
+    },
+    {
+        "event_id": 2,
+        "author_name": "Steven",
+        "title": "Game Night",
+        "details": "Join us for a fun game night with snacks and friends!",
+        "event_date": "2025-01-26T18:00:00-09:00",
+        "publish_date": "2025-01-20T12:00:00-09:00"
+    },
+    {
+        "event_id": 3,
+        "author_name": "Steven",
+        "title": "Book Club Meeting",
+        "details": "Discussing our book of the month!",
+        "event_date": "2025-01-30T17:00:00-09:00",
+        "publish_date": "2025-01-23T14:00:00-09:00"
+    },
+    {
+        "event_id": 4,
+        "author_name": "Steven",
+        "title": "Potluck Dinner",
+        "details": "Bring a dish to share!",
+        "event_date": "2025-02-02T19:00:00-09:00",
+        "publish_date": "2025-01-25T09:00:00-09:00"
+    },
+    {
+        "event_id": 5,
+        "author_name": "Steven",
+        "title": "Outdoor Hike",
+        "details": "Join us for a scenic hike on the trails!",
+        "event_date": "2025-02-09T09:00:00-09:00",
+        "publish_date": "2025-01-30T10:00:00-09:00"
+    }
+]

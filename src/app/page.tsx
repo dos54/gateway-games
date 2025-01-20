@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Socials from "@/components/socials/Socials";
 import './home.css'
+import { getUpcomingEventsSorted } from "@/utils/getEventsList";
+import { dateFormatter } from "@/utils/dateFormatter";
+
+const nextEvent = getUpcomingEventsSorted()[0]
 
 export default function Home() {
   return (
@@ -16,10 +20,16 @@ export default function Home() {
       <h1 
         className="centered call-to-action"
       >
-        Upcoming Events
+        Upcoming Event
       </h1>
-      <h2>No upcoming events at this time. Check back later!</h2>
-      <Socials />
+      <h2>{nextEvent.title}</h2>
+      <div>{nextEvent.details}</div>
+      <div>Time: {dateFormatter(new Date(nextEvent.event_date))}</div>
+      <section className="addendum">
+        <div>See all our events at <a href="/events">our events page</a></div>
+        <div>Or, check our our social media!</div>
+        <Socials />
+      </section>
     </div>
     <section>
       <h2 className="centered">About Us</h2>

@@ -1,9 +1,13 @@
 import Image from "next/image"
 import './socials.css'
 
-export default function Socials () {
+interface SocialsProps {
+    className?: string
+}
+
+export default function Socials ({ className }: SocialsProps) {
     return (
-        <div className="socials-media-links">
+        <div className={`socials-media-links ${className || ""}`}>
             <a href="https://www.facebook.com/gatewaygamesak/" title="Gateway Games Alaska Facebook" className="social-icon">
                 <Image 
                     src={"images/icons/facebook-icon.svg"}

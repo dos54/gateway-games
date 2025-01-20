@@ -18,6 +18,10 @@ const links = [
         title: 'Gallery',
         url: '/gallery'
     },
+    {
+        title: 'Events',
+        url: '/events'
+    }
 ]
 
 const pirataOne = Pirata_One({
