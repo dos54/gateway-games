@@ -8,8 +8,6 @@ import { Pirata_One } from "next/font/google"
 import './header.css'
 import './header-medium.css'
 import './header-large.css'
-import { title } from "process"
-import { url } from "inspector"
 
 const links = [
     {
