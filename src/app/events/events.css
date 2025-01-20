@@ -1,0 +1,9 @@
+.events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card {
+    padding: 8px;
+}

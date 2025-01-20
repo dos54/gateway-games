@@ -39,7 +39,15 @@ p {
   margin-top: 8px;
 }
 
+section {
+  margin-top: 16px;
+}
+
 .centered {
   text-align: center;
 }
 
+.card {
+  background: var(--md-sys-color-surface-container);
+  border-radius: 12px;
+}

@@ -8,6 +8,8 @@ import { Pirata_One } from "next/font/google"
 import './header.css'
 import './header-medium.css'
 import './header-large.css'
+import { title } from "process"
+import { url } from "inspector"
 
 const links = [
     {
@@ -18,6 +20,10 @@ const links = [
         title: 'Gallery',
         url: '/gallery'
     },
+    {
+        title: 'Events',
+        url: '/events'
+    }
 ]
 
 const pirataOne = Pirata_One({
